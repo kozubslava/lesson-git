@@ -1,8 +1,82 @@
-caption {
-  text-align: right;
+*{
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+  
 }
-td,
-th {
+
+table{
+  border-collapse:collapse;
+  border-radius: 10px;
+  overflow: hidden;
+  border-radius: 6px
+
+}
+
+
+th:nth-child(1){
+  background-color: rgb(194, 194, 245);
+  padding: 20px;
+}
+
+th:nth-child(2){
+  background-color: rgb(152, 152, 237);
+}
+
+th:nth-child(3){
+  background-color: rgb(108, 108, 238);
+}
+
+th:nth-child(4){
+  background-color: rgb(75, 75, 242);
+}
+
+th:nth-child(5){
+  background-color: rgb(48, 48, 139);
+}
+th{
+  color: white;
   padding: 10px;
-  border: 2px solid black;
+  border: none;
+  font-weight: 700;
 }
+th span{
+  font-size: 20px;
+  display: block;
+  padding-top: 15px;
+}
+
+td {
+  text-align: center;
+  padding: 10px 30px;
+  font-size: 14px;
+}
+
+td:nth-child(1){
+  text-align: left;
+  
+}
+
+
+tr:nth-child(odd){
+  background-color: rgb(233, 231, 231);
+}
+
+tr:nth-child(odd)  td:nth-child(even) {
+  background-color: rgb(241, 235, 235);
+}
+
+tr:nth-child(even){
+  background-color: rgb(202, 202, 202);
+}
+
+tr:nth-child(even)  td:nth-child(even) {
+  background-color: rgb(226, 222, 222);
+}
+
+button{
+  font-size: 10px;
+  background-color: rgb(202, 202, 202);
+  padding: 10px 20px;
+  border: 1px solid gray;
+}
+
